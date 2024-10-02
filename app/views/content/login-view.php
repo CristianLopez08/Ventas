@@ -4,14 +4,12 @@
     	<p class="has-text-centered">
             <i class="fas fa-user-circle fa-5x"></i>
         </p>
-		<h5 class="title is-5 has-text-centered">Inicia sesión</h5>
-
+		<h5 class="title is-5 has-text-centered">INICIAR SESIÓN</h5>
 		<?php
 			if(isset($_POST['login_usuario']) && isset($_POST['login_clave'])){
 				$insLogin->iniciarSesionControlador();
 			}
 		?>
-
 		<div class="field">
 			<label class="label"><i class="fas fa-user-secret"></i> &nbsp; Usuario</label>
 			<div class="control">
@@ -20,12 +18,11 @@
 		</div>
 
 		<div class="field">
-		  	<label class="label"><i class="fas fa-key"></i> &nbsp; **************</label>
+		  	<label class="label"><i class="fas fa-key"></i> &nbsp; ********</label>
 		  	<div class="control">
 		    	<input class="input" type="password" name="login_clave" pattern="[a-zA-Z0-9$@.-]{7,100}" maxlength="100" required >
 		  	</div>
 		</div>
-
 		<p class="has-text-centered mb-4 mt-3">
 			<button type="submit" class="button is-info is-rounded">ENTRAR</button>
 		</p>
