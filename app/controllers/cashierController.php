@@ -5,7 +5,7 @@
 
 	class cashierController extends mainModel{
 
-		/*----------  Controlador registrar caja  ----------*/
+
 		public function registrarCajaControlador(){
 
 			# Almacenando datos#
