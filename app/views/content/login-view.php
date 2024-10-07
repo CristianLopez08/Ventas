@@ -22,7 +22,7 @@
 
                 <div class="field" style="margin-bottom: 100px;">
                     <div class="control" style="position: relative; display: inline-block;">
-                      <input class="input" type="text" name="login_usuario" pattern="[a-zA-Z0-9]{4,10}" maxlength="20" required placeholder="Usuario" style="width: 500px; padding-left: 80px; border-radius: 50px; border: 2px solid grey; font-size: 26px;">
+                      <input class="input" type="text" name="login_usuario" pattern="[a-zA-Z0-9]{4,20}" maxlength="20" required placeholder="Usuario" style="width: 500px; padding-left: 80px; border-radius: 50px; border: 2px solid grey; font-size: 26px;">
                       <span class="material-symbols-outlined" style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); pointer-events: none; font-size: 36px; color: #c6d6d6;">person</span>
                     </div>
                 </div>
